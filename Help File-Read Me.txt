@@ -1,0 +1,6 @@
+FirstStrutsApplication-01             		is first struts program
+FirstStrutsApplication-02             		is struts programs with validation
+FirstStrutsApplication-03             		is First struts program with database(login and registration only)
+FirstStrutsApplication-04/Struts_tr1            is complete struts program with database(login,registration,update,delete)
+MyInterceptor			      		Example ofUserdefined interceptor and userdefined result 
+

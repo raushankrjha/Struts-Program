@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MyTiles"
+  id="myeclipse.1408080580532"
+  context-root="/MyTiles"
+  j2ee-spec="6.0"
+  archive="MyTiles.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

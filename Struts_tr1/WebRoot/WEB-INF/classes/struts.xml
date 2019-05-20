@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+   
+   <package name="demo" extends="struts-default">
+	  
+	   <action name="login" class="p1.LoginAction" >
+	   <result name="success">welcome.jsp</result>
+	   <result name="error">relogin.jsp</result>
+	   <result name="input">index.jsp</result>
+	   </action>
+	   
+	   <action name="reg" class="p1.LoginAction" method="reg">
+	   <result name="success">reg.jsp</result>
+	   <result name="error">reg.jsp</result>
+	   <result name="input">reg.jsp</result>
+	   </action>
+	   
+	   
+	    <action name="viewAll" class="p1.ViewAllAction">
+	     <result name="success">ViewAll.jsp</result>
+	   </action>
+	   
+	   
+	   
+	    <action name="delete" class="p1.ViewAllAction" method="deleteRecord">
+	     <result name="success">ViewAll.jsp</result>
+	     <result name="error">ViewAll.jsp</result>
+	   </action>
+	   
+	   
+	   <action name="update" class="p1.ViewAllAction" method="updateRecord">
+	     <result name="success">update.jsp</result>
+	   </action>
+	   
+	   
+	   <action name="updateDone" class="p1.ViewAllAction" method="updateDone">
+	     <result name="success">ViewAll.jsp</result>
+	     <result name="error">ViewAll.jsp</result>
+	   </action>
+	   
+   </package>
+
+
+</struts>    

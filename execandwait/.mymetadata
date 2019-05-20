@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="6th_ExecAndWait_Test"
+  id="myeclipse.1306324657155"
+  context-root="/6th_ExecAndWait_Test"
+  j2ee-spec="5.0"
+  archive="6th_ExecAndWait_Test.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

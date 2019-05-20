@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+
+ <package name="demo" >
+        <result-types>
+        	<result-type name="dispatcher" class="org.apache.struts2.dispatcher.ServletDispatcherResult"/>
+        </result-types>
+		
+		<interceptors>
+			<interceptor name="params" class="com.opensymphony.xwork2.interceptor.ParametersInterceptor"/>
+		</interceptors>
+		
+		<action name="login" class="p1.LoginAction">
+			<interceptor-ref name="params"/>
+			<result name="success" type="dispatcher">welcome.jsp</result>
+		</action>
+</package>
+
+
+
+
+
+</struts>    
